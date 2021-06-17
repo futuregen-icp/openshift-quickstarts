@@ -56,7 +56,12 @@
             <artifactId>jboss-logmanager</artifactId>
             <version>${version.jboss.logmanager}</version>
         </dependency>
-
+      
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+      
     </dependencies>
 
     <profiles>
